@@ -7,4 +7,7 @@
 	2. Delete listed notes from a single Workbook
 	3. Wipe all desired notes from the whole Joplin app
 
+* Enable the clipper service by:
+	- Tools > Options > Web Clipper > Enable Web Clipper Service
+
 ![Joplin_add_script.sh demo](https://i.imgur.com/BZQb3xR.gif)
