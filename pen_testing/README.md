@@ -14,7 +14,7 @@ Simple bash script to quickly format different ways to download a file.
 
 ## Office Macro Template Builder
 
-Simple bash script to quickly format Macro payloads.
+Simple bash script to quickly format Macro payloads. To help fit the Winodws `255` character limit.
 
 ![macro_example](https://i.imgur.com/5aifc95.png)
 
