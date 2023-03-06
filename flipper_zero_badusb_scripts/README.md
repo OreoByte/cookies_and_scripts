@@ -20,4 +20,6 @@
 
 ![](https://i.imgur.com/EESBlDQ.jpg)
 
+### `cmd_as_admin_keyboard.txt`
 
+Good old run CMD or other with `Admin` privileges with `CTRL+SHIFT+ENTER`.
