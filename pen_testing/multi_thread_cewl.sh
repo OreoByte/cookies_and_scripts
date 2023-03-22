@@ -33,7 +33,9 @@ else
 	fi
 	echo "$cyan[*]$reset Starting cewl command by URLs file"
 	while IFS= read -r f_urls; do
-		cewl -e -d $depth -w ./$output_dir/$f_urls.txt $f_urls | xargs -P $cpu -n 1
+		# Need to figure out a better way to do this the xargs makes it go faster but misses so many words...
+		#cewl -e -d $depth -w ./$output_dir/$f_urls.txt $f_urls | xargs -P $cpu -n 1
+		cewl -e -d $depth -w ./$output_dir/$f_urls.txt $f_urls
 	done < $file
 	echo "$green[+]$reset Finsihed cewl command from URLs file, concat all results into one file $write_file"
 	cat ./$output_dir/*.txt > ./$output_dir/all_furone.txt
