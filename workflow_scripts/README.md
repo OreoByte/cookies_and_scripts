@@ -11,3 +11,14 @@
 	- Tools > Options > Web Clipper > Enable Web Clipper Service
 
 ![Joplin_add_script.sh demo](https://i.imgur.com/BZQb3xR.gif)
+
+## Bash reformat script `fix_url_code.sh`
+
+* `fix_url_code.sh` Help remove empty lines and fix broken code indenttation.
+	1. `Sed` Magic.
+	2. Use of VIM's `gg = G` command mode command to auto indent.
+
+```bash
+./fix_url_code.sh <filename>
+./fix_url_code.sh useful.cpp
+```
