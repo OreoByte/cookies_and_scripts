@@ -4,7 +4,9 @@
 remove_empty_lines() {
     sed -i '/^\s*$/d' "$1"
 }
-
+del_end_whitespace(){
+    sed -i 's/[[:blank:]]*$//' "$1"
+}
 # Auto-indent the code in a file using Vim
 auto_indent() {
     vim -e -s -c "set filetype=sh" -c "normal gg=G" -c "wq" "$1"
@@ -31,6 +33,7 @@ filename="$1"
 
 # Remove empty lines
 remove_empty_lines "$filename"
+del_end_whitespace "$filename"
 
 # Auto-indent the code
 auto_indent "$filename"
