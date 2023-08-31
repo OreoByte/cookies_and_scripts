@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Remove empty lines from a file
 remove_empty_lines() {
     sed -i '/^\s*$/d' "$1"
