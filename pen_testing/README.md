@@ -82,3 +82,10 @@ objcopy -O binary out.obj just_raw.bin
 ```
 
 * Get all the supported `nasm` formats with `nasm -h` help menu!
+
+## Heap_Ratoon Script From My Youtube Video: 
+
+```
+How To Test/Verify Anti Virus Evasion Techniques Without Burning Them.
+heap_ratoon_v2_fail.sh
+```
